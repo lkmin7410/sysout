@@ -1,0 +1,12 @@
+package Chapter8;
+
+public class Book {
+	
+	String name;
+	String number;
+	String mail;
+
+	void Book() {
+		
+	}
+}

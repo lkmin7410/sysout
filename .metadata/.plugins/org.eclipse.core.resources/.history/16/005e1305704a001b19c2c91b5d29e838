@@ -1,0 +1,20 @@
+package Code_test;
+
+public class Atm_main {
+	
+	static	int money = 50000;
+	
+	
+
+	public static void main(String[] args) {
+		
+		menu menu = new menu();
+		while(true) {
+		menu.menu();
+		}
+		
+		
+		
+	}
+
+}

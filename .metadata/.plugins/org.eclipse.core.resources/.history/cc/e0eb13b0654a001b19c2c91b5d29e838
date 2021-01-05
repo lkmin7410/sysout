@@ -1,0 +1,12 @@
+package test;
+
+import java.util.Scanner;
+
+public class Coding_8_sc {
+
+	void sc() {
+	Scanner sc = new Scanner(System.in);
+	int cho = sc.nextInt();
+	}
+	
+}

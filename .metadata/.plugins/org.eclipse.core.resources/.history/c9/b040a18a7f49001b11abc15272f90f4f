@@ -1,0 +1,8 @@
+package Chapter7;
+
+public class Money {
+	
+	
+	public int money;
+	
+}

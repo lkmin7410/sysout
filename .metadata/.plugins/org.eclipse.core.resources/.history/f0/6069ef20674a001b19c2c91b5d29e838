@@ -1,0 +1,14 @@
+package test;
+
+public class Coding_8_list {
+
+	String list[] = {"이경민","유규종","김민형","김태완"};
+	String num[] = {"010-xxxx-xxxx","010-oooo-oooo","010-vvvv-vvvv","010-ssss-ssss"};
+	
+	void list() {
+		for(int i = 0; i < list.length; i++) {
+			System.out.println(list[i]+" : "+num[i]);
+		}
+	}
+	
+}

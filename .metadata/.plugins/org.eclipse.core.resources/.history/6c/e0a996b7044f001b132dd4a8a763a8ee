@@ -1,0 +1,15 @@
+package Chapter8;
+
+public class Phone {
+
+	
+	
+	public static void main(String[] args) {
+
+		Book b = new Book();
+		
+		System.out.println("1. 전화번호부 | 2. 아무고토 안하기");
+		
+	}
+
+}

@@ -1,0 +1,12 @@
+package test;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+public class Coding_8_time {
+	
+	void time() {
+		SimpleDateFormat format1 = new SimpleDateFormat ( "yyyy-MM-dd HH:mm:ss");
+	}
+
+
+}

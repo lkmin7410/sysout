@@ -1,0 +1,34 @@
+package Chapter8;
+
+import java.util.Scanner;
+
+public class Book_array {
+
+	Book[] b_array ;
+	Book b = new Book();
+	String list[] = new String[5];
+	Scanner sc = new Scanner(System.in);
+
+	static int cnt = 0;
+
+public	Book_array() {
+		this.b = new Book[5];
+	}
+
+	void add() {
+		System.out.print("이름 : ");
+		String name = sc.next();
+		System.out.print("번호 : ");
+		String num = sc.next();
+
+		b.setName(name);
+		b.setNumber(num);
+
+		for(int i = 0; i<list.length;i++) {
+			if(list.equals(null)) {
+				list[i] = b.getName();
+				
+			}
+		}
+	}
+}

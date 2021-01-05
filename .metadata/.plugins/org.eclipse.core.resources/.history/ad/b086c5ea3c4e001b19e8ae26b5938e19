@@ -1,0 +1,74 @@
+package Chapter8;
+
+import java.util.Scanner;
+
+public class A {
+	static Scanner sc = new Scanner(System.in);
+
+	static B b[] = new B[3];
+
+	public static void in_put(C list) {
+
+		int num1;
+		int num2;
+		int num3;
+
+		B b1 = new B();
+		System.out.print("입력 : ");
+		num1 = sc.nextInt();
+		System.out.print("입력 : ");
+		num2 = sc.nextInt();
+		System.out.print("입력 : ");
+		num3 = sc.nextInt();
+
+		b1.num1 = num1;
+		b1.num2 = num2;
+		b1.num3 = num3;
+
+		list.b[list.cnt] = b1;
+		list.cnt++;
+
+	}
+
+	public static void out_put(C list) {
+
+		for (int i = 0; i < list.cnt; i++) {
+
+			B b1 = list.b[i];
+
+			int num1 = b1.num1;
+			int num2 = b1.num2;
+			int num3 = b1.num3;
+
+			int sum = num1 + num2 + num3;
+
+			System.out.println(sum);
+
+		}
+	}
+
+	public static void main(String[] args) {
+
+		C list = new C();
+
+		list.b = new B[3];
+		list.cnt = 0;
+
+		while (true) {
+
+			System.out.println("1. 입력 | 2. 출력");
+			int cho = sc.nextInt();
+
+			switch (cho) {
+			case 1:
+				in_put(list);
+				break;
+			case 2: 
+				out_put(list);
+				break;
+			}
+
+		}
+	}
+
+}

@@ -1,0 +1,8 @@
+package Chapter8;
+
+public class C {
+
+	B[] b;
+	int cnt;
+	
+}

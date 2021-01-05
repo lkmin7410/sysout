@@ -1,0 +1,23 @@
+package Chapter7;
+
+import java.util.Scanner;
+
+public class User_main {
+
+	public static void main(String[] args) {
+		User us = new User();
+		Scanner sc = new Scanner(System.in);
+		
+		us.id();
+		
+		us.na();
+		
+		us.pa();
+		
+		
+	}
+
+}
+
+
+

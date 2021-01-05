@@ -1,0 +1,17 @@
+package Exam;
+
+public class Class_C extends Class_B{
+	
+	
+	
+	void getset() {
+		
+		Class_B b = new Class_B	();
+		
+String A = "이경민";
+String B = "킹왕짱";
+		
+	
+	
+	}
+}

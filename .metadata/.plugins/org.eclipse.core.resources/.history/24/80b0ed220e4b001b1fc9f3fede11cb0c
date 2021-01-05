@@ -1,0 +1,10 @@
+package test;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+public class Coding_8_time {
+	
+	void time() {
+	}
+
+}

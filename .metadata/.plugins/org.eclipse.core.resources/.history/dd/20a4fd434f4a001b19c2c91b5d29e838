@@ -1,0 +1,26 @@
+package Code_test;
+
+public class Kiosk {
+	
+	
+static	String choice[] = {"주문","결제"};
+static	String Kategorie[] = {"버거","음료","사이드"};
+	
+	
+	
+	
+	
+	
+	public static void main(String[] args) {
+
+		System.out.println("★경민이 버거★");
+		System.out.println("=============================");
+		System.out.println();
+		
+		for(int i = 0; i<choice.length; i++	) {
+			System.out.println((i+1)+". "+choice[i]);
+		}
+		
+	}
+
+}

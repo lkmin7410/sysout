@@ -1,0 +1,26 @@
+package Chapter7;
+
+import java.util.Scanner;
+
+public class User_main {
+
+	public static void main(String[] args) {
+		User us = new User();
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("ID : ");
+		us.ID = sc.next();
+		us.check(us.ID);
+		System.out.print("Name : ");
+		us.Name = sc.next();
+		System.out.print("Pass : ");
+		us.Pass = sc.nextInt();
+		
+		
+		
+	}
+
+}
+
+
+

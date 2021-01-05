@@ -1,0 +1,9 @@
+package test;
+
+public class Coding_8_time {
+	
+	time() {
+		System.out.println("현재 시간은 aa시 : bb분 입니다.");
+	}
+
+}

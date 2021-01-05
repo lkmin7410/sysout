@@ -1,0 +1,41 @@
+package test;
+
+import java.util.Scanner;
+
+public class Coding_4 {
+static	Scanner sc = new Scanner(System.in);
+	
+	class channel{
+	void channel() {
+			System.out.println("채널 선택");
+			int num = sc.nextInt();
+			System.out.println("현재 채널은 "+num+"번 입니다.");
+			
+			
+		}
+	}
+	
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		channel c = new channel();
+		
+		System.out.println("1. 채널 | 2. 볼륨 | 3. 전원");
+		int cho = sc.nextInt();
+		
+		switch (cho) {
+		case 1 :
+			
+			
+			break;
+		case 2 :
+			break;
+		case 3 :
+			break;
+		}
+		
+	}
+
+}

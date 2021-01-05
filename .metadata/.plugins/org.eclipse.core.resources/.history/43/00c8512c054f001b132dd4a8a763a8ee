@@ -1,0 +1,13 @@
+package Chapter8;
+
+public class Book_array {
+	String name[] = { "남자A", "남자B", "여자C", "여자D", "여자E" };
+
+	void name() {
+		for (int i = 0; i < name.length; i++) {
+			System.out.println((i + 1) + ". " + name[i]);
+		}
+
+	}
+
+}

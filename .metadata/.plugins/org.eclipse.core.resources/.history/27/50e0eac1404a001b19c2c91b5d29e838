@@ -1,0 +1,50 @@
+package Chapter7;
+
+public class Exam {
+	private int kor;
+	private int eng;
+	private int math;
+	private int sic;
+	private int sos;
+
+
+	public int getSic() {
+		return sic;
+	}
+
+	public void setSic(int sic) {
+		this.sic = sic;
+	}
+
+	public int getSos() {
+		return sos;
+	}
+
+	public void setSos(int sos) {
+		this.sos = sos;
+	}
+
+	public int getKor() {
+		return kor;
+	}
+
+	public void setKor(int kor) {
+		this.kor = kor;
+	}
+
+	public int getEng() {
+		return eng;
+	}
+
+	public void setEng(int eng) {
+		this.eng = eng;
+	}
+
+	public int getMath() {
+		return math/2;
+	}
+
+	public void setMath(int math) {
+		this.math = math;
+	}
+}

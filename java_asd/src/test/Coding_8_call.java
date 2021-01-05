@@ -1,0 +1,29 @@
+package test;
+
+public class Coding_8_call{
+
+	void call() {
+		
+		
+		Coding_8_sc sc = new Coding_8_sc();
+		Coding_8_list list = new Coding_8_list();
+		
+		for(int i = 0; i < list.list.length; i++) {
+			System.out.println((i+1)+". "+ list.list[i]);
+		}System.out.print("선택 : ");
+		int cho = sc.sc();
+		
+		switch (cho) {
+		case 1 : System.out.println(list.list[0]+"에게 전화를 겁니다.");
+		break;
+		case 2 : System.out.println(list.list[1]+"에게 전화를 겁니다.");
+		break;
+		case 3 : System.out.println(list.list[2]+"에게 전화를 겁니다.");
+		break;
+		case 4 : System.out.println(list.list[3]+"에게 전화를 겁니다.");
+		break;
+		}
+	}
+	
+	
+}

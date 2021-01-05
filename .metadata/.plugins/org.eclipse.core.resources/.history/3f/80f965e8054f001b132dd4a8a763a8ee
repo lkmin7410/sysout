@@ -1,0 +1,21 @@
+package Chapter8;
+
+import java.util.Scanner;
+
+public class Phone {
+
+	
+	
+	public static void main(String[] args) {
+
+		Book b = new Book();
+		Scanner sc = new Scanner(System.in);
+		System.out.println("1. 전화번호부 | 2. 아무고토 안하기");
+		int cho = sc.nextInt();
+		
+		switch (cho) {
+		case 1 : b.Book();
+		}
+	}
+
+}

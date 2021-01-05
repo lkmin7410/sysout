@@ -1,0 +1,16 @@
+package test;
+
+import java.io.IOException;
+
+public class internet {
+
+	public static void main(String[] args) {
+		Runtime runtime = Runtime.getRuntime();
+		try {
+			runtime.exec("C:/Program Files (x86)/Internet Explorer/iexplore.exe");
+		}catch (IOException ex) {
+			
+		}
+	}
+
+}

@@ -1,0 +1,24 @@
+package Chapter8;
+
+import java.util.Scanner;
+
+public class C {
+	
+	void C() {
+		B b = new B();
+		sub s = new sub();
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("str에 1234입력");
+		b.str = sc.next();
+		b.c = 'A';
+		s.sub(b.str);
+		
+		for(int i = 0; i <s.sum.length;i++) {
+			System.out.println(s.sum[i]+b.c);
+		}
+		
+	}
+	
+
+}

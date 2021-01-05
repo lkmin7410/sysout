@@ -1,0 +1,15 @@
+package Chapter8;
+
+public class sub {
+
+	void sub(String str){
+		
+		String array[] = new String[str.length()];
+		
+		for(int i = 0; i < str.length(); i++) {
+			
+		}
+		
+	}
+	
+}

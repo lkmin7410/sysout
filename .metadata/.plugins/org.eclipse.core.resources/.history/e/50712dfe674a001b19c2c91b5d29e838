@@ -1,0 +1,15 @@
+package test;
+
+public class Coding_8_call{
+
+	void call() {
+		
+		
+		Coding_8_sc sc = new Coding_8_sc();
+		Coding_8_list list = new Coding_8_list();
+		
+		list.list();
+	}
+	
+	
+}

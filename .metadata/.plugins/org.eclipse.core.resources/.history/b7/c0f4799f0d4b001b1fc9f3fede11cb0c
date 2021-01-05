@@ -1,0 +1,25 @@
+package test;
+
+import java.util.Scanner;
+
+public class Coding_8_search {
+
+	
+	void search() {
+		
+		internet in = new internet();
+		in.internet();
+		
+		
+		
+//		Scanner sc = new Scanner(System.in); 
+//		 
+//		System.out.print("검색어 입력 : ");
+//		String str = sc.next();
+//		
+//		if(str==str) {
+//			System.out.println("좌송하지만 그런거 모릅니다.");
+//		}
+		
+	}
+}

@@ -1,0 +1,26 @@
+package test;
+
+public class Coding_8 {
+
+	public static void main(String[] args) {
+
+		Coding_8_sc sc = new Coding_8_sc();
+		
+		while(true) {
+			System.out.println("1.전화번호 부 || 2.전화 걸기 || 3.시간 확인 || 4. 인터넷 검색");
+		int cho = sc.sc();
+		
+		switch (cho) {
+		case 1 : 
+			
+		
+		}
+		
+		
+			
+		}
+		
+		
+	}
+
+}

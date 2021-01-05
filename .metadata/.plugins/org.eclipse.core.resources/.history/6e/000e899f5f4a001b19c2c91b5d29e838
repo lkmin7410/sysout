@@ -1,0 +1,22 @@
+package test;
+
+public class Coding_6 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		String str = "9B768C";
+		String array[] = new String [str.length()];
+		
+		for(int i = 0; i<str.length(); i++) {
+			array[i] = str.substring(i,i+1);
+			array[i].charAt(i);
+		}
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,19 @@
+package Chapter8;
+
+import java.util.Scanner;
+
+public class C {
+	
+	void C() {
+		B b = new B();
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("str에 1234입력");
+		b.str = sc.next();
+		b.c = 'A';
+		
+		
+	}
+	
+
+}

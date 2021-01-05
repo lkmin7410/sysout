@@ -1,0 +1,16 @@
+package Code_test;
+
+public class Buger {
+
+	void buger() {
+		System.out.println();
+		String name[] = {"불고기 버거","치킨 버거","비프 버거","새우 버거"};
+		for(int i = 0; i<name.length;i++) {
+			System.out.println((i+1)+". "+name[i]);
+		}
+		
+	}
+	
+	
+	
+}

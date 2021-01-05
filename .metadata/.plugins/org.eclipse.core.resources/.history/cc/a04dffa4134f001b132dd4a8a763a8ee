@@ -1,0 +1,25 @@
+package Chapter8;
+
+public class Book_array {
+
+	Book b[];
+	Book bo = new Book();
+	
+	public Book_array() {
+		this.b = new Book[5];
+	}
+	
+	public void list() {
+		String name_list[] = {"남자1","남자2","여자1","남자2"};
+		String number_list[] = {"010-1111-1111","010-2222-2222","010-3333-3333","010-4444-4444"};
+		
+		bo.setName(name_list);
+		bo.setNumber(number_list);
+
+		for(int i = 0; i < bo.getName().length;i++) {
+			System.out.println(bo.getName());
+		}
+		
+	}
+	
+}

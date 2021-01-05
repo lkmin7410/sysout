@@ -1,0 +1,26 @@
+package Chapter7;
+
+import java.util.Scanner;
+
+public class User_main {
+
+	public static void main(String[] args) {
+		User us = new User();
+		Scanner sc = new Scanner(System.in);
+		boolean run = true;
+		
+		
+		while(run) {
+		us.id();
+		
+		us.na_check(us.Name);
+		
+		us.pa_check(us.Pass);
+		
+		}
+	}
+
+}
+
+
+

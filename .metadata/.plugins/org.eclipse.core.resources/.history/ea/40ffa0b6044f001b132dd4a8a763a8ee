@@ -1,0 +1,27 @@
+package Chapter8;
+
+import java.util.Scanner;
+
+public class Book {
+	
+	String name;
+	String number;
+	String mail;
+	boolean run = true;
+	void Book() {
+		while(run) {
+			Book_array b = new Book_array();
+		System.out.println("1. 연락처 | 2. 검색 | 3. 추가");
+			Scanner sc = new Scanner(System.in);
+			int cho = sc.nextInt();
+			switch (cho) {
+			case 1 :
+				b.name();
+				
+				
+			}
+		}
+		
+		
+	}
+}

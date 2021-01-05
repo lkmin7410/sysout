@@ -1,0 +1,16 @@
+package test;
+
+public class Ex_1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		int val_1 = 83;
+		double val_2 = 2.0;
+		
+		
+		
+	}
+
+}

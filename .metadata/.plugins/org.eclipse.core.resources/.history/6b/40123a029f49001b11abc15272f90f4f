@@ -1,0 +1,30 @@
+package Chapter7;
+
+public class User {
+
+	String ID;
+	String Name;
+	int Pass;
+
+	boolean run = true;
+
+	void id_check(String id) {
+		if (id.length() > 6) {
+			System.out.println("잘못 입력 하셨습니다.");
+		}
+	}
+
+	void na_check(String na) {
+
+		if (na.length() > 4) {
+			System.out.println("잘못 입력 하셨습니다.");
+		}
+	}
+
+	void pa_check(int pa) {
+
+		if (pa > 99999999) {
+			System.out.println("잘못 입력 하셨습니다.");
+		}
+	}
+}

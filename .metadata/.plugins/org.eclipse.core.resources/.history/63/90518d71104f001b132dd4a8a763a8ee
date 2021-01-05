@@ -1,0 +1,67 @@
+package Chapter8;
+
+import java.util.Scanner;
+
+public class Book {
+
+	String name;
+	String number;
+	String mail;
+	boolean run = true;
+	Book_array ba = new Book_array();
+	Scanner sc = new Scanner(System.in);
+
+	void Book() {
+		while (run) {
+
+			System.out.println("1. 연락처 | 2. 검색 | 3. 추가");
+
+			int cho = sc.nextInt();
+			switch (cho) {
+			case 1:
+				name();
+				break;
+
+			case 2:
+				search();
+				break;
+
+			}
+		}
+
+	}
+
+	void name() {
+		for (int i = 0; i < ba.name.length; i++) {
+			System.out.println((i + 1) + ". " + ba.name[i]);
+		}
+	}
+
+	void search() {
+		System.out.print("입력 : ");
+		String str = sc.next();
+		int cnt = 1;
+		for (int i = 0; i < ba.name.length; i++) {
+			if (str.equals(ba.name[i])) {
+				System.out.println(ba.name[i] + " : " + ba.number[i]);
+				break;
+			} else if (str != (ba.name[i])) {
+				cnt++;
+				continue;
+			}
+		}
+		if (cnt > 4) {
+			System.out.println("연락처 없음");
+
+		}
+	}
+
+	void add() {
+		System.out.print("이름 : ");
+		String na = sc.next();
+		System.out.print("번호 : ");
+		String nu = sc.next();
+
+	}
+
+}

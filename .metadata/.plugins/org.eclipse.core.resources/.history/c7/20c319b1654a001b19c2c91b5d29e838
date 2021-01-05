@@ -1,0 +1,18 @@
+package test;
+
+public class Coding_8 {
+
+	public static void main(String[] args) {
+
+		Coding_8_sc sc = new Coding_8_sc();
+		
+		while(true) {
+			sc.sc();
+			
+			
+		}
+		
+		
+	}
+
+}

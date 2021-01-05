@@ -1,0 +1,17 @@
+package Chapter7;
+
+public class Car {
+	
+	String wheel;
+	String tire;
+	String engine;
+	String color;
+	String cc;
+
+	public static void main(String[] args) {
+
+		
+		
+	}
+
+}

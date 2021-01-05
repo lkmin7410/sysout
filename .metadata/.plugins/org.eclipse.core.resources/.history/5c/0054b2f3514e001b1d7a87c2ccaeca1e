@@ -1,0 +1,24 @@
+package Chapter8;
+
+import java.util.Scanner;
+
+public class Cal extends Class_B{
+	
+	void cal(Class_B B1) {
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("연산자 입력");
+		String cho = sc.next();
+		
+		switch (cho) {
+		case "+" : B1.num_3 = B1.num_1 + B1.num_2;
+		System.out.println(B1.num_3);
+		break;
+		}
+		
+		
+		
+	}
+	
+
+}
